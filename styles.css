@@ -66,7 +66,7 @@ li.mbc-right {
   padding: 0 0.8vw;
   height: 100%;
   width: auto;
-  font-family: 'Source Sans Pro', Verdana, sans-serif;
+  font-family: 'Source Sans Pro', sans-serif;
   font-size: 0.95vw;
   line-height: 5.5vw;
   color: rgb(187, 189, 193);
@@ -92,7 +92,7 @@ div.section-1 {
   display: block;
   box-sizing: border-box;
   margin: 0 7vw;
-  height: 45vw;
+  height: 47.5vw;
   width: 86vw;
   background-color: rgb(32, 37, 49);
 }
@@ -105,27 +105,40 @@ div.column-half {
   width: 50%;
 }
 
+#col-left-1 {
+  margin-top: 12vw;
+}
+
+.text-input {
+  margin: 0.5vw 10vw;
+}
+
 h1.text-input {
-  font-family: 'Titillium Web', Arial, sans-serif;
-  font-weight: 400;
+  font-family: 'Titillium Web', sans-serif;
+  font-size: 2.4vw;
+  font-weight: 300;
+  line-height: 2.8vw;
   color: white;
 }
 
 h2.text-input {
-  font-family: 'Source Sans Pro', Verdana, sans-serif;
+  font-family: 'Source Sans Pro', sans-serif;
+  font-size: 1vw;
   font-weight: 300;
+  line-height: 1.4vw;
+  letter-spacing: 0.03vw;
   color: rgb(213, 214, 217);
 }
 
 input.text-input {
-  font-family: 'Source Sans Pro', Verdana, sans-serif;
+  font-family: 'Source Sans Pro', sans-serif;
   font-weight: lighter;
   color: rgb(150, 150, 150);
   background-color: white;
 }
 
-input.email-sign-up {
-  font-family: 'Titilium Web', Arial, sans-serif;
+#email-sign-up {
+  font-family: 'Titilium Web', sans-serif;
   color: white;
   background-color: rgb(103, 200, 131);
 }
