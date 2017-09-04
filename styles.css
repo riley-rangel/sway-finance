@@ -88,7 +88,7 @@ button.sign-up {
   color: rgb(255, 255, 255);
 }
 
-div.container-1 {
+div.section-1 {
   display: block;
   box-sizing: border-box;
   margin: 0 7vw;
@@ -97,9 +97,10 @@ div.container-1 {
   background-color: rgb(32, 37, 49);
 }
 
-div.text-input {
-  border: 1px solid white;
-  position: relative;
+div.column-half {
+  display: inline-block;
+  float: left;
+  box-sizing: border-box;
   height: auto;
   width: 50%;
 }
@@ -127,4 +128,21 @@ input.email-sign-up {
   font-family: 'Titilium Web', Arial, sans-serif;
   color: white;
   background-color: rgb(103, 200, 131);
+}
+
+#video-image {
+  position: relative;
+  z-index: 1;
+  height: auto;
+  width: 32vw;
+  border-radius: 0.15vw;
+}
+
+#play-image {
+  position: relative;
+  z-index: 2;
+  right: 18.5vw;
+  bottom: 7.5vw;
+  height: auto;
+  width: 5vw;
 }
