@@ -20,9 +20,9 @@ body {
 }
 
 .banner-top {
+  display: block;
   height: 5.5vw;
   width: 100vw;
-  display: block;
 }
 
 .menu-bar {
@@ -88,10 +88,43 @@ button.sign-up {
   color: rgb(255, 255, 255);
 }
 
-div.video-container {
+div.container-1 {
+  display: block;
+  box-sizing: border-box;
   margin: 0 7vw;
   height: 45vw;
   width: 86vw;
-  display: block;
   background-color: rgb(32, 37, 49);
+}
+
+div.text-input {
+  border: 1px solid white;
+  position: relative;
+  height: auto;
+  width: 50%;
+}
+
+h1.text-input {
+  font-family: 'Titillium Web', Arial, sans-serif;
+  font-weight: 400;
+  color: white;
+}
+
+h2.text-input {
+  font-family: 'Source Sans Pro', Verdana, sans-serif;
+  font-weight: 300;
+  color: rgb(213, 214, 217);
+}
+
+input.text-input {
+  font-family: 'Source Sans Pro', Verdana, sans-serif;
+  font-weight: lighter;
+  color: rgb(150, 150, 150);
+  background-color: white;
+}
+
+input.email-sign-up {
+  font-family: 'Titilium Web', Arial, sans-serif;
+  color: white;
+  background-color: rgb(103, 200, 131);
 }
