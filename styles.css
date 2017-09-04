@@ -19,16 +19,16 @@ body {
   background-color: rgb(238, 238, 238);
 }
 
-.fixed-banner-top {
-  position: fixed;
-  height: auto;
+.banner-top {
+  height: 5.5vw;
   width: 100vw;
+  display: block;
 }
 
 .menu-bar {
-  position: relative;
+  position: fixed;
+  left: 7vw;
   margin: auto;
-  overflow: none;
   height: 5.5vw;
   width: 86vw;
   background-color: rgb(32, 37, 49);
@@ -86,4 +86,12 @@ button.sign-up {
   background-color: rgb(103, 200, 131);
   font-size: 0.8vw;
   color: rgb(255, 255, 255);
+}
+
+div.video-container {
+  margin: 0 7vw;
+  height: 45vw;
+  width: 86vw;
+  display: block;
+  background-color: rgb(32, 37, 49);
 }
