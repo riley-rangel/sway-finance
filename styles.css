@@ -22,11 +22,12 @@ body {
 .banner-top {
   display: block;
   height: 5.5vw;
-  width: 100vw;
+  width: 100%;
 }
 
 .menu-bar {
   position: fixed;
+  z-index: 3;
   left: 7vw;
   margin: auto;
   height: 5.5vw;
@@ -44,7 +45,7 @@ ul.menu-bar-content {
 li.mbc-left {
   position: relative;
   top: 1.2vw;
-  left: 10vw;
+  left: 10.4vw;
   float: left;
   height: auto;
   width: auto;
@@ -63,7 +64,7 @@ img.menu-bar-logo {
 li.mbc-right {
   position: relative;
   float: right;
-  padding: 0 0.8vw;
+  padding: 0 0.9vw 0 0.6vw;
   height: 100%;
   width: auto;
   font-family: 'Source Sans Pro', sans-serif;
@@ -110,41 +111,57 @@ div.column-half {
 }
 
 .text-input {
-  margin: 0.5vw 10vw;
+  margin: 0.5vw 3vw 1.5vw 10.4vw;
 }
 
 h1.text-input {
   font-family: 'Titillium Web', sans-serif;
-  font-size: 2.4vw;
+  font-size: 2.875vw;
   font-weight: 300;
-  line-height: 2.8vw;
+  line-height: 3.5vw;
   color: white;
 }
 
 h2.text-input {
   font-family: 'Source Sans Pro', sans-serif;
-  font-size: 1vw;
+  font-size: 1.225vw;
   font-weight: 300;
-  line-height: 1.4vw;
+  line-height: 1.85vw;
   letter-spacing: 0.03vw;
   color: rgb(213, 214, 217);
 }
 
-input.text-input {
+#main-email-entry {
+  margin: 0.5vw 0.5vw 0.5vw 10.4vw;
+  padding: 0.75vw;
+  height: 2.4vw;
+  width: 19vw;
+  box-sizing: border-box;
   font-family: 'Source Sans Pro', sans-serif;
-  font-weight: lighter;
+  font-size: 0.8325vw;
+  font-weight: 300;
   color: rgb(150, 150, 150);
   background-color: white;
+  border-top-left-radius: 0.2vw;
+  border-bottom-right-radius: 0.2vw;
 }
 
 #email-sign-up {
+  height: 2.4vw;
+  width: 9.5vw;
   font-family: 'Titilium Web', sans-serif;
+  font-size: 0.825vw;
+  letter-spacing: 0.05vw;
   color: white;
   background-color: rgb(103, 200, 131);
+  border-top-right-radius: 0.2vw;
+  border-bottom-right-radius: 0.2vw;
 }
 
 #video-image {
   position: relative;
+  top: 10.4vw;
+  left: 0.66vw;
   z-index: 1;
   height: auto;
   width: 32vw;
@@ -155,7 +172,7 @@ input.text-input {
   position: relative;
   z-index: 2;
   right: 18.5vw;
-  bottom: 7.5vw;
+  bottom: -2.5vw;
   height: auto;
-  width: 5vw;
+  width: 5.75vw;
 }
